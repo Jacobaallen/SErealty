@@ -50,9 +50,17 @@ li a:hover {
   }
 }
 
-.SM{
+.SM {
   display: flex;
   justify-content: flex-end;
+  margin: 15px;
+  padding: 0;
+}
+
+.phone-number {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
   margin: 15px;
   padding: 0;
 }
