@@ -160,10 +160,6 @@ li a:hover {
   flex-direction: column;
 }
 
-img {
-  width: 100%
-}
-
 .contact-hero {
   background-color: #E3E7E8;
   background-repeat: no-repeat;
@@ -182,6 +178,13 @@ img {
   color: white;
   font-size: 7rem;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.icons-master {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
 }
 
 .footer {
