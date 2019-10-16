@@ -9,7 +9,7 @@ body {
   text-shadow: 2px 2px 4px #000000;
   color: white;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   width: 100%
 }
 
@@ -48,16 +48,21 @@ li a:hover {
   .navbar:not(.top-nav-collapse) {
     background: #3492D3 ;
   }
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 .logo {
-  height: 20px;
-  width: 20px;
+  height: 60px;
+  width: 60px;
 }
 
 .contact-1 {
   display: flex;
   justify-content: space-between;
+  padding-left: 150px;
 }
 
 .phone-number {
@@ -91,7 +96,6 @@ li a:hover {
 }
 
 .cards-1 {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   height: 450px;
@@ -103,18 +107,15 @@ li a:hover {
   margin-top: 5%;
 }
 
-/* On mouse-over, add a deeper shadow */
 .cards-1:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
 }
 
 .cards-2 {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   height: 450px;
