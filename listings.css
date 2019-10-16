@@ -50,13 +50,19 @@ li a:hover {
   }
 }
 
-.phone-number {
+.contact-1 {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.phone-number {
   color: white;
   margin: 15px;
   padding: 0;
+}
+
+.email {
+  margin-left: 20px;
 }
 
 .listing-hero {
