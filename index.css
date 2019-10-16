@@ -50,6 +50,15 @@ li a:hover {
   }
 }
 
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+logo a:hover {
+
+}
+
 .SM {
   display: flex;
   justify-content: flex-end;
@@ -84,8 +93,8 @@ li a:hover {
 .intro-text {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 45%;
+  top: 350px;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 4rem;
@@ -174,12 +183,14 @@ li a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 .cards-2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
 
 img {
@@ -212,7 +223,8 @@ img {
   position: absolute;
   margin-top: 450px;
   color: white;
-  left: 32%;
+  left: 35%;
+  font-size: 20px;
 }
 
 .name {
