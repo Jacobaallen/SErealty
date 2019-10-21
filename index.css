@@ -43,7 +43,6 @@ li a:hover {
   background-color: #111;
 }
 
-
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #3492D3 ;
