@@ -197,7 +197,7 @@ logo a:hover {
 
 .card {
   margin: 10px;
-  width: 450px;
+  width: 250px;
   padding: 5px;
   box-sizing: border-box;
   position: relative;
@@ -220,6 +220,26 @@ logo a:hover {
   justify-content: space-around;
   align-items: center;
   width: 100%;
+}
+
+.listings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  padding: 10px;
+  background-color: #3492D3;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 25%;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.listings:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 img {
