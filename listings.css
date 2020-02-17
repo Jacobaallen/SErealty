@@ -137,6 +137,32 @@ li a:hover {
   padding: 2px 16px;
 }
 
+.cards-3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 450px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.cards-3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container3 {
+  padding: 2px 16px;
+  text-decoration: line-through;
+}
+
+.leased {
+  color: red;
+  font-size: 50px;
+}
+
 .area-master {
   display: flex;
   justify-content: space-between;
