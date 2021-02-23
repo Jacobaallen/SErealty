@@ -223,14 +223,16 @@ logo a:hover {
 }
 
 .listings {
+  background-image: url("images/local-small-business.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 110px;
   padding: 10px;
   background-color: #3492D3;
-  border-radius: 10px;
+  border-radius: 50px;
   width: 50%;
+  height: 400px;
   margin-left: 25%;
   color: white;
   text-decoration: none;
